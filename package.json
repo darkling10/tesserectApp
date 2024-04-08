@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "node-tesseract": "^0.2.7",
+    "node-tesseract-ocr": "^2.2.1",
+    "tesseract.js": "^5.0.5"
+  },
+  "name": "jsapp",
+  "version": "1.0.0",
+  "main": "tesJs.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
