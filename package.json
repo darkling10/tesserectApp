@@ -7,6 +7,7 @@
     "multer": "^1.4.5-lts.1",
     "node-tesseract": "^0.2.7",
     "node-tesseract-ocr": "^2.2.1",
+    "process": "^0.11.10",
     "tesseract.js": "^5.0.5"
   },
   "name": "jsapp",
@@ -14,7 +15,8 @@
   "main": "tesJs.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r ./setEnv.js tesJs.js"
   },
   "keywords": [],
   "author": "",
